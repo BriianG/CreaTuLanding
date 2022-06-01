@@ -1,0 +1,86 @@
+//Componentes
+//Una funcion que retorna JSX.
+
+// import { DEFAULT_BREAKPOINTS } from "react-bootstrap/esm/ThemeProvider"
+
+
+// function App() {    //FUNCION 
+    // return (   // RETORNO
+    //    <>    NOS DEVUELVE UN JSX
+                     //EL NAVBAR Y CUERPO ES EL LLAMADO A LA FUNCION QUE TENGO EN OTRO LADO Y QUE ESTOY IMPORTANDO (SIEMPRE EN JSX)
+
+    //    <NavBar/>   ESTE ES EL LLAMADO Y DENTRO DE NavBar.jsx esta el componente (en la jerga todo es componente)
+    //    <Cuerpo/>
+    //    </>
+    // )
+    // }
+
+
+    //EL COMPONENTE ES EL LLAMADO A MI FUNCION
+
+
+    //QUE NOS RESULEVE CONSTRUIR EN FORMA MODULAR ?
+    //CREAS UN COMPONENTE CON UNA SOLA CARD Y DE ALGUNA FORMA LA VAMOS REPITIENDO Y  CAMBIAMOS EL CONTENIDO (PRECIO, IMAGEN, PORCENTAJE DE DESCUENTO, ETC)
+    //Y ADEMAS SE PUEDE MODULARIZAR.
+
+    //HACEMOS UNA SOLA TARJETA/CARD Con diferente info. (VER COMO SE HACE!!!)
+
+
+    //VENTAJAS DEL ENFOQUE MODULARIZAR 
+
+    
+
+
+    //COMPONENTES - 
+
+
+
+
+
+// USAMOS TERNARIO SOLAMENTE PORQUE USAMOS COSAS QUE TENGAN RETORNO MUY IMPORTANTE.
+
+//COMPONENTES SON FUNCIONES Y SE PUEDEN AGREGAR AL DESTRUCTURING   MUY IMPORTANTE
+
+// COMPOENTE A PROP SE PUEDE PORQUE ES FUNCION 
+
+
+// SE PUEDE PONER IF EN JSX?   NO !!!  
+// SE UTILIZA TERNARIO, COSAS QUE TENGAN RETORNO SOLAMENTE, EL TERNARIO TIENE UN RETURN IMPLICITO
+//?
+//:
+
+
+
+//COMPONENTES DE PRESENTACION 
+// SE LIMITAN A MOSTRAR DATOS Y TIENEN POCA O NULA O POCA LOGICA ASOCIADA A MANIPULACION DEL ESTADO/STATELESS
+
+
+
+
+//APP ES COMPONENTE CONTENEDOR 
+//RESTO DE LOS COMPONENTES (MENU, FORMULARIO, TITULO) SON PRESENTACIONALES.
+
+//UN COMPONENTE HACE UNA SOLA COSA.
+//
+
+
+
+
+//HAY DOS TIPOS DE CIERR DE ETIQUETA
+
+// <div/> 
+
+//Cuando cerramos de una manera o de otra?
+
+// Cuando un elemetno sea contenedor vamos a cerrarla con el doble cierre
+// ejemplo
+
+// y por que?
+
+// porque va a contener cosas adentro
+// <div>
+
+//<img/> 
+
+
+// </div> 
